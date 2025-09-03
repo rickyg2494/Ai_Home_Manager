@@ -1,0 +1,17 @@
+lib/
+├── main.dart                 # App entry point
+├── models/                   # Data models
+│   ├── device.dart          # Device model
+│   ├── room.dart            # Room model
+│   └── user.dart            # User model
+├── services/                 # Business logic
+│   ├── auth_service.dart    # Authentication
+│   ├── device_service.dart  # Device management
+│   └── ai_service.dart      # AI assistant
+├── screens/                  # UI screens
+│   ├── auth/                # Authentication screens
+│   ├── home/                # Main app screens
+│   └── ai/                  # AI assistant screen
+└── widgets/                  # Reusable components
+    ├── device_card.dart     # Device control widget
+    └── room_card.dart       # Room overview widget
